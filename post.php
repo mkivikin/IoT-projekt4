@@ -6,14 +6,14 @@ class Post {
     private $type;
     private $content;
     private $data;
-    public function newPost($id, $author, $timestamp, $type, $content, $startTime, $endTime){
-        this.$id = $id;
-        this.$author = $author;
-        this.$timestamp = $timestamp;
-        this.$type = $type;
-        this.$content = $content;
-        this.$startTime = $startTime;
-        this.$endTime = $endTime;
+    public function __construct($id, $author, $timestamp, $type, $content, $startTime, $endTime){
+        $this->id = $id;
+        $this->$author = $author;
+        $this->$timestamp = $timestamp;
+        $this->$type = $type;
+        $this->$content = $content;
+        $this->$startTime = $startTime;
+        $this->$endTime = $endTime;
     }
 
 }
