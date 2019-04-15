@@ -1,5 +1,10 @@
 {
-    "require": {
-        "monolog/monolog": "1.0.*"
-    }
+    "name": "marek/io-t-projekt4",
+    "authors": [
+        {
+            "name": "mkivikin",
+            "email": "17691928+mkivikin@users.noreply.github.com"
+        }
+    ],
+    "require": {}
 }
